@@ -6,7 +6,7 @@ setup(
     version='1.0',
     description='CLI todo list',
     author='Enkot',
-    install_requires=['click', 'peewee'],
+    install_requires=['click', 'peewee', 'merry'],
     entry_points={
         'console_scripts': [
             'todoit=todoit:cli',
